@@ -10,9 +10,9 @@ declare(strict_types = 1);
 namespace JackMD\ScoreHud\Addons
 {
 	use JackMD\ScoreHud\addon\AddonBase;
-	use DaRealAqua\PrisonEssentials\commands;
-	use DaRealAqua\PrisonEssentials\commands\MyStatusCommand;
-	use DaRealAqua\PrisonEssentials\commands\RankupCommand;
+	use Prison\commands;
+	use Prison\commands\MystatusCommand;
+	use Prison\commands\RankupCommand;
 	use pocketmine\Player;
 
 	class PrisonEssentialsAddon extends AddonBase{
